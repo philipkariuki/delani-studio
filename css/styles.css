@@ -4,5 +4,5 @@ body {
 }
 .welcome {
     color: white;
-    cursor: url('assets/mouse_click.png'), auto;
+    cursor: url('../assets/mouse_click.png'), auto;
 }
