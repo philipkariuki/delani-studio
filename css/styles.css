@@ -1,28 +1,37 @@
 body {
-    text-align: center;
-    background-color: grey;
+	text-align: center;
+	background-color: grey;
 }
 .welcome {
-    color: white;
-    cursor: url('../assets/mouse_click.png'), auto;
-    background-image: url('../assets/backgrounds/h_img.jpg');
-    width: 100%;
-    height: 100%;
+	color: white;
+	cursor: url('../assets/mouse_click.png'), auto;
+	background-image: url('../assets/backgrounds/h_img.jpg');
+	width: 100%;
+	height: 100%;
 }
 .about {
-    color: black;
-    cursor: url('../assets/mouse_click.png'), auto;
-    background-color: white;
+	color: black;
+	cursor: url('../assets/mouse_click.png'), auto;
+	background-color: white;
 }
 .services {
-    color: white;
-    background-image: url('../assets/backgrounds/s_image.jpg');
-    width: 100%;
-    height: 100%;
-    cursor: url('../assets/mouse_click.png'), auto;
+	color: white;
+	background-image: url('../assets/backgrounds/s_image.jpg');
+	width: 100%;
+	height: 100%;
+	cursor: url('../assets/mouse_click.png'), auto;
 }
 .what {
-    color: black;
-    cursor: url('../assets/mouse_click.png'), auto;
-    background-color: white;
-
+	color: black;
+	cursor: url('../assets/mouse_click.png'), auto;
+	background-color: white;
+}
+.portfolio {
+	color: black;
+	cursor: url('../assets/mouse_click.png'), auto;
+	background-color: white;
+}
+.contact {
+	color: black;
+	background-color: white;
+}
