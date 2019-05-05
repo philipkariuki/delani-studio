@@ -6,3 +6,12 @@ body {
     color: white;
     cursor: url('../assets/mouse_click.png'), auto;
 }
+.about {
+    color: black;
+    cursor: url('../assets/mouse_click.png'), auto;
+}
+.services {
+    color: white;
+    cursor: url('../assets/mouse_click.png'), auto;
+}
+
