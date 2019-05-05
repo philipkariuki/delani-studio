@@ -21,4 +21,8 @@ body {
     height: 100%;
     cursor: url('../assets/mouse_click.png'), auto;
 }
+.what {
+    color: black;
+    cursor: url('../assets/mouse_click.png'), auto;
+    background-color: white;
 
