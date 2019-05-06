@@ -7,14 +7,16 @@ body {
 	background-image: url(../assets/backgrounds/h_img.jpg);
 	width: 100%;
 	height: 100%;
-	padding-top: 120px;
-	padding-bottom: 60px;
+	padding-top: 320px;
+	padding-bottom: 220px;
 }
 .about {
 	color: black;
 	cursor: url('../assets/mouse_click.png'), auto;
 	background-color: white;
 	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 .services {
 	color: white;
@@ -53,6 +55,12 @@ span.intro {
 	margin-bottom: 20px;
 }
 h1.sub-intro {
+	max-width: 300px;
+	/* text-align: center; */
+	width: 100%;
+	margin: auto;
+}
+h4.sub-title {
 	max-width: 300px;
 	/* text-align: center; */
 	width: 100%;
