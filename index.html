@@ -116,21 +116,17 @@
 	<div class="contact">
 		<h5>CONTACT US</h5>
 		<div class="row">
-			<form id="fomu">
-					<div class="col-6">
-				<div class="form-group"> <label for="name">Name:</label> <input id="name" class="form-control" type="text"> </div>
-					</div>
-					<div class="col-xl-3 col-md-3">
-				<div class="form-group"> <label for="email">Email:</label> <input id="email" class="form-control" type="text"> </div>
-			</div>
-
+			<form class="form-inline" action="/action_page.php">
+				<label for="name"></label>
+				<input type="email" id="email" placeholder="Your name..." name="name">
+				<label for="email"></label>
+				<input type="email" id="email" placeholder="Your email..." name="email">
 		</div>
-
-<textarea name="" id="query" cols="120" rows="10">Your message here...</textarea>
-
-
-				<button type="submit" class="btn">Submit</button> 
-			</form>
+		<div class="row">
+			<textarea name="" id="btn" cols="120" rows="10">Your message here...</textarea>
+		</div>
+		<button type="submit" class="btn">Submit</button>
+	</form>
 	</div>
 	<div class="social">
 		<img src="assets/social_icons/twitter.png" alt="twitter">
