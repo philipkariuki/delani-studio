@@ -71,3 +71,8 @@ h4.sub-title {
 	width: 100%;
 	margin: auto;
 }
+.row {
+	padding: 200px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
