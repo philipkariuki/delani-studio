@@ -1,3 +1,4 @@
+// Front-end logic
 $(document).ready(function(){
 	$("#work1").hover(function() {
 	$(this).animate({opacity: 0.5}, 500);
@@ -39,6 +40,18 @@ $(document).ready(function(){
 	}, function() {
 	$(this).animate({opacity: 1.0}, 500);
 	});
+	// mouseOver display hidden div
+	$('.description-wwd').mouseover(function() {
+		$(this).children(".icon-wwd").hide();
+		$(this).children(".textwwd").show();
+	}).mouseout(function() {
+		$(this).children(".icon-wwd").show();
+		$(this).children(".textwwd").hide();
+	});
+
+	
+
+
 
 });
 

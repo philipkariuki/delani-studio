@@ -132,3 +132,16 @@ h4.sub-title {
 	color: black;
 	background-color: white;
 }
+.icon-wwd, .textwwd {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.textwwd {
+    display: none;
+}
+
+.description-wwd {
+    position: relative;
+    min-height: 200px;
+}
