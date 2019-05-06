@@ -9,6 +9,7 @@ body {
 	height: 100%;
 	padding-top: 320px;
 	padding-bottom: 220px;
+	background-size: cover;
 }
 .about {
 	color: black;
@@ -24,6 +25,9 @@ body {
 	width: 100%;
 	height: 100%;
 	cursor: url('../assets/mouse_click.png'), auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-size: cover;
 }
 .serv {
 	width: 80%;
