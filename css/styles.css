@@ -76,3 +76,12 @@ h4.sub-title {
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
+.contact {
+	color: white;
+	background-image: url('../assets/backgrounds/c_image.jpg');
+
+	cursor: url('../assets/mouse_click.png'), auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-size: cover;
+}
