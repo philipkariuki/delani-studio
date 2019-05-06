@@ -1,18 +1,20 @@
 body {
-	text-align: center;
-	background-color: grey;
+	text-align: center;	
 }
 .welcome {
 	color: white;
-	cursor: url('../assets/mouse_click.png'), auto;
-	background-image: url('../assets/backgrounds/h_img.jpg');
+	cursor: url(../assets/mouse_click.png), auto;
+	background-image: url(../assets/backgrounds/h_img.jpg);
 	width: 100%;
 	height: 100%;
+	padding-top: 120px;
+	padding-bottom: 60px;
 }
 .about {
 	color: black;
 	cursor: url('../assets/mouse_click.png'), auto;
 	background-color: white;
+	overflow: hidden;
 }
 .services {
 	color: white;
@@ -20,6 +22,10 @@ body {
 	width: 100%;
 	height: 100%;
 	cursor: url('../assets/mouse_click.png'), auto;
+}
+.serv {
+	width: 80%;
+	margin: auto;
 }
 .what {
 	color: black;
@@ -34,4 +40,21 @@ body {
 .contact {
 	color: black;
 	background-color: white;
+}
+
+span.intro {
+	font-size: 2.5rem;
+	border: 5px solid;
+	border-radius: 50%;
+	padding: 1rem;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+h1.sub-intro {
+	max-width: 300px;
+	/* text-align: center; */
+	width: 100%;
+	margin: auto;
 }
