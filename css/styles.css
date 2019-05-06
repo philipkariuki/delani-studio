@@ -14,7 +14,6 @@ body {
 }
 .about {
 	color: black;
-	cursor: url('../assets/mouse_click.png'), auto;
 	background-color: white;
 	overflow: hidden;
 	padding-top: 60px;
@@ -36,8 +35,9 @@ body {
 }
 .what {
 	color: black;
-	cursor: url('../assets/mouse_click.png'), auto;
 	background-color: white;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 .portfolio {
 	color: black;
