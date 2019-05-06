@@ -122,3 +122,13 @@ h4.sub-title {
   .btn:hover {
     background-color: rgb(65, 225, 92);
   }
+  .social {
+	color: black;
+	background-color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.footer {
+	color: black;
+	background-color: white;
+}
