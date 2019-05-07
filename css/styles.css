@@ -146,7 +146,8 @@ h4.sub-title {
     min-height: 200px;
 }
 #matokeo {
-  text-align: center;
-  font-family: Segoe Script !important;
-  padding-top: 60px;
+	text-align: center;
+	font-family: 'Just Another Hand', cursive;
+	padding-top: 20px;
+	font-size: 32px;
 }
