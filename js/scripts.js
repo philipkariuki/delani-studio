@@ -1,4 +1,4 @@
-// Business (or back-end) logic:
+// Business logic:
 
 var maembe = function(name) {
   return name;
